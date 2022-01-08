@@ -591,6 +591,10 @@ b, strong {
   color: #ffc200;
 }
 
+#instafeed-container img {
+  width: 25%;
+}
+
 @media (min-width: 1270px) {
   .owl-theme .owl-dots {
     position: relative;
@@ -635,6 +639,9 @@ b, strong {
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
+  #instafeed-container img {
+    width: 50%;
+  }
 }
 
 @media (max-width: 580px) {
@@ -654,6 +661,9 @@ b, strong {
   .timeline-info small {
     display: block;
     margin: 10px 0 0 0;
+  }
+  #instafeed-container img {
+    width: 50%;
   }
 }
 
@@ -687,6 +697,9 @@ b, strong {
   .social-links li {
     display: inline-block;
     vertical-align: top;
+  }
+  #instafeed-container img {
+    width: 50%;
   }
 }
 /*# sourceMappingURL=tooplate-style.css.map */

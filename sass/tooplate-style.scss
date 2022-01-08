@@ -573,6 +573,12 @@ b, strong {
 }
 
 
+#instafeed-container{
+	img{
+		width: 25%;
+	}
+}
+
 // RESPONSIVE STYLES
 @media (min-width: 1270px) {
 	.owl-theme {
@@ -631,6 +637,11 @@ b, strong {
 	.navbar-expand-sm .navbar-nav .nav-link {
 		padding: 3px 20px;
 	}
+	#instafeed-container{
+		img{
+			width: 50%;
+		}
+	}
 }
 
 
@@ -656,6 +667,11 @@ b, strong {
 	.timeline-info small {
 		display: block;
 		margin: 10px 0 0 0;
+	}
+	#instafeed-container{
+		img{
+			width: 50%;
+		}
 	}
 }
 
@@ -694,6 +710,11 @@ b, strong {
 		li {
 			display: inline-block;
 			vertical-align: top;
+		}
+	}
+	#instafeed-container{
+		img{
+			width: 50%;
 		}
 	}
 }
