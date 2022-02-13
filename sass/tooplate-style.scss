@@ -349,7 +349,7 @@ b, strong {
 	}
 	.feature-card .uil,
 	.navbar-light .navbar-brand,
-	h1, h2, h3, h4, h5, h6,
+	h1, h2, h3, h4, h5, h6,p,li,a,
 	.color-mode {
 		color: $text-white;
 	}
@@ -404,6 +404,10 @@ b, strong {
 	vertical-align: top;
 	max-width: 432px;
 	margin-left: 6em;
+	text-align: justify;
+	h3{
+		text-align: left;
+	}
 	small {
 		color: $button-color;
     	font-size: $link-font-size;
@@ -462,6 +466,7 @@ b, strong {
   		}
 	}
   	.owl-dots {
+		  margin-top: 2em;
   		.owl-dot {
   			outline: none;
   			span {
@@ -611,6 +616,11 @@ b, strong {
 	.contact-info {
 		padding: 0 2rem;
 	}
+	.owl-theme {
+		.owl-dots {
+			margin-top: -1em;
+		}
+  }
 }
 
 
@@ -642,6 +652,11 @@ b, strong {
 			width: 50%;
 		}
 	}
+	.owl-theme {
+		.owl-dots {
+			margin-top: 1em;
+		}
+  }
 }
 
 
@@ -673,6 +688,11 @@ b, strong {
 			width: 50%;
 		}
 	}
+	.owl-theme {
+		.owl-dots {
+			margin-top: 1em;
+		}
+  }
 }
 
 
@@ -716,5 +736,10 @@ b, strong {
 		img{
 			width: 50%;
 		}
+	}
+	.owl-theme {
+		  .owl-dots {
+			  margin-top: 1em;
+		  }
 	}
 }

@@ -384,7 +384,7 @@ b, strong {
 
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6, .dark-mode p, .dark-mode li, .dark-mode a,
 .dark-mode .color-mode {
   color: #ffffff;
 }
@@ -436,6 +436,11 @@ b, strong {
   vertical-align: top;
   max-width: 432px;
   margin-left: 6em;
+  text-align: justify;
+}
+
+.timeline-info h3 {
+  text-align: left;
 }
 
 .timeline-info small {
@@ -485,6 +490,10 @@ b, strong {
 
 .owl-theme .owl-nav [class*=owl-]:hover {
   color: #ffc200;
+}
+
+.owl-theme .owl-dots {
+  margin-top: 2em;
 }
 
 .owl-theme .owl-dots .owl-dot {
@@ -619,6 +628,9 @@ b, strong {
   .contact-info {
     padding: 0 2rem;
   }
+  .owl-theme .owl-dots {
+    margin-top: -1em;
+  }
 }
 
 @media (max-width: 767px) {
@@ -642,6 +654,9 @@ b, strong {
   #instafeed-container img {
     width: 50%;
   }
+  .owl-theme .owl-dots {
+    margin-top: 1em;
+  }
 }
 
 @media (max-width: 580px) {
@@ -664,6 +679,9 @@ b, strong {
   }
   #instafeed-container img {
     width: 50%;
+  }
+  .owl-theme .owl-dots {
+    margin-top: 1em;
   }
 }
 
@@ -700,6 +718,9 @@ b, strong {
   }
   #instafeed-container img {
     width: 50%;
+  }
+  .owl-theme .owl-dots {
+    margin-top: 1em;
   }
 }
 /*# sourceMappingURL=tooplate-style.css.map */
